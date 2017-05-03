@@ -1,0 +1,173 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.img
+{
+   width:100px; 
+   height: 90px;
+   margin-top: 0px;
+}
+
+h1
+{
+   align:center;
+   float: right;
+}
+
+.heading
+{
+   padding-right: 350px;
+   font-family: cursive;
+   color: blue;
+
+}
+/*body
+{
+   background-image: url("/home/user/workspace/second/images/bac2.jpg");
+   background-size:cover; 
+}*/
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel
+{
+   width:1000px;
+   height: 400px;
+}
+#carimg
+{
+  
+   width:1800px;
+}
+
+.car3
+{
+   height:400px;
+   width:10px;
+}
+
+.img1
+{
+   width:350px;
+   height: 300px;
+}
+
+
+.f1
+{
+   width: 100%;
+   height:300px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.forei
+{
+   font-weight: 5em;
+   font-size: 30px;
+   color: red; 
+   font-family:cursive;
+}
+.foo
+{
+   width: 100%;
+   height: 200px;
+}
+footer
+{
+   background: grey;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   #mylis
+   {
+      width: 100%;
+      font-size: 20px;
+
+   }
+   #anchor
+   {
+      padding-left: 80px;
+   }
+   #hanchor
+   {
+      padding-left: 7px;
+   }
+   #anchorsp
+   {
+      padding-left: 130px;
+   }
+   #toph
+   {
+      padding-left: 400px;
+      font-size: 30px;
+   }
+   footer
+   {
+      color: red;
+   }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	h1
+   {
+      font-size: 20px;
+      margin-right: -200px;
+   }
+    #mylis
+   {
+      width: 100%;
+      font-size: 20px;
+
+   }
+   #anchor
+   {
+      padding-left: 250px;
+   }
+    #hanchor
+   {
+      font-size: 30px;
+
+   }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #carimg
+   {
+      width: 100%;
+   }
+    
+   
+	
+}
